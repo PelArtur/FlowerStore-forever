@@ -38,4 +38,5 @@ jobs:
 
     steps:
     - name: Run Tests
-      run: mvn test --file pom.xml
+      run: mvn -B package --file pom.xml
+          mvn test --file pom.xml
